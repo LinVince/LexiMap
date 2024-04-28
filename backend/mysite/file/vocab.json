@@ -1,0 +1,3662 @@
+[
+    {
+        "model": "textlayer.Vocab",
+        "pk": 1,
+        "fields": {
+            "text": "sushi",
+            "type": "noun",
+            "definition": "A Japanese dish consisting of vinegared rice combined with various ingredients such as seafood, vegetables, and sometimes tropical fruits.",
+            "origin": "Japan",
+            "longitude": 138.2529,
+            "latitude": 36.2048
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 2,
+        "fields": {
+            "text": "ballet",
+            "type": "noun",
+            "definition": "A theatrical dance form that originated in Renaissance Italy and France and is characterized by grace, precision, and expressive movement.",
+            "origin": "France",
+            "longitude": 2.2137,
+            "latitude": 46.2276
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 3,
+        "fields": {
+            "text": "yogurt",
+            "type": "noun",
+            "definition": "A dairy product made by fermenting milk with a bacterial culture, often flavored and sweetened.",
+            "origin": "Turkey",
+            "longitude": 35.2433,
+            "latitude": 38.9637
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 4,
+        "fields": {
+            "text": "caravan",
+            "type": "noun",
+            "definition": "A group of travelers journeying together, especially in desert areas, often for safety.",
+            "origin": "Persia",
+            "longitude": 51.389,
+            "latitude": 32.4279
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 5,
+        "fields": {
+            "text": "bazaar",
+            "type": "noun",
+            "definition": "A market in a Middle Eastern country where goods are sold.",
+            "origin": "Persia",
+            "longitude": 50.66975478664151,
+            "latitude": 32.506801629058366
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 6,
+        "fields": {
+            "text": "kimchi",
+            "type": "noun",
+            "definition": "A traditional Korean dish made from fermented vegetables, usually cabbage or radishes, often spicy.",
+            "origin": "Korea",
+            "longitude": 127.7669,
+            "latitude": 35.9078
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 7,
+        "fields": {
+            "text": "croissant",
+            "type": "noun",
+            "definition": "A buttery, flaky pastry of Austrian origin, often enjoyed for breakfast.",
+            "origin": "France",
+            "longitude": 5.792984241871379,
+            "latitude": 45.88148307594317
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 8,
+        "fields": {
+            "text": "ketchup",
+            "type": "noun",
+            "definition": "A sweet and tangy sauce usually made from tomatoes, vinegar, sugar, and spices.",
+            "origin": "China",
+            "longitude": 104.1954,
+            "latitude": 35.8617
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 9,
+        "fields": {
+            "text": "avatar",
+            "type": "noun",
+            "definition": "In Hinduism, the incarnation of a deity; in modern usage, a digital representation of a person.",
+            "origin": "India",
+            "longitude": 78.9629,
+            "latitude": 20.5937
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 10,
+        "fields": {
+            "text": "saffron",
+            "type": "noun",
+            "definition": "A spice derived from the flower of Crocus sativus, known for its golden color and distinct flavor.",
+            "origin": "Greece",
+            "longitude": 21.8243,
+            "latitude": 39.0742
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 11,
+        "fields": {
+            "text": "machete",
+            "type": "noun",
+            "definition": "A large, heavy knife with a broad blade, often used as an agricultural tool.",
+            "origin": "Hispanic America",
+            "longitude": -74.0721,
+            "latitude": 4.5709
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 12,
+        "fields": {
+            "text": "hurricane",
+            "type": "noun",
+            "definition": "A tropical cyclone with winds of 74 mph or higher, causing extensive damage.",
+            "origin": "Caribbean",
+            "longitude": -76.7969,
+            "latitude": 18.9712
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 13,
+        "fields": {
+            "text": "pyjama",
+            "type": "noun",
+            "definition": "A loose-fitting, comfortable set of clothes worn for sleeping.",
+            "origin": "India",
+            "longitude": 80.72807250381663,
+            "latitude": 17.96097371680046
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 14,
+        "fields": {
+            "text": "curry",
+            "type": "noun",
+            "definition": "A variety of dishes prepared with a complex combination of spices, often including meat or vegetables.",
+            "origin": "India",
+            "longitude": 79.10841421649721,
+            "latitude": 19.21530865876682
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 15,
+        "fields": {
+            "text": "sorbet",
+            "type": "noun",
+            "definition": "A frozen dessert made from sweetened water or fruit juice and often flavored with fruit.",
+            "origin": "Middle East",
+            "longitude": 45.0792,
+            "latitude": 21.5202
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 16,
+        "fields": {
+            "text": "samba",
+            "type": "noun",
+            "definition": "A lively, rhythmic dance style originating in Brazil, known for its syncopated beat.",
+            "origin": "Brazil",
+            "longitude": -51.9253,
+            "latitude": -14.235
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 17,
+        "fields": {
+            "text": "banana",
+            "type": "noun",
+            "definition": "A long, curved fruit with a thick skin and soft, sweet flesh, typically eaten raw or used in cooking.",
+            "origin": "Southeast Asia",
+            "longitude": 114.7277,
+            "latitude": -2.5489
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 18,
+        "fields": {
+            "text": "salsa",
+            "type": "noun",
+            "definition": "A popular Latin American dance style and type of music that originated in the Caribbean.",
+            "origin": "Caribbean",
+            "longitude": -78.37920001245492,
+            "latitude": 17.63712143950756
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 19,
+        "fields": {
+            "text": "avocado",
+            "type": "noun",
+            "definition": "A large, pear-shaped fruit with a green, bumpy skin and a creamy interior, commonly used in salads and guacamole.",
+            "origin": "Mexico",
+            "longitude": -102.5528,
+            "latitude": 23.6345
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 20,
+        "fields": {
+            "text": "tapas",
+            "type": "noun",
+            "definition": "A variety of small Spanish appetizers or snacks, typically served with drinks.",
+            "origin": "Spain",
+            "longitude": -3.7038,
+            "latitude": 40.4168
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 21,
+        "fields": {
+            "text": "cafe",
+            "type": "noun",
+            "definition": "A small restaurant or coffeehouse where people can enjoy food and beverages.",
+            "origin": "France",
+            "longitude": 2.094594806335924,
+            "latitude": 46.125888183553606
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 22,
+        "fields": {
+            "text": "karma",
+            "type": "noun",
+            "definition": "A belief in Hinduism and Buddhism that actions in this life affect one's fate in future lives.",
+            "origin": "India",
+            "longitude": 79.22547831484263,
+            "latitude": 21.058918388816924
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 23,
+        "fields": {
+            "text": "sitar",
+            "type": "noun",
+            "definition": "A stringed musical instrument from India, known for its distinctive sound and use in classical Indian music.",
+            "origin": "India",
+            "longitude": 78.19178771256786,
+            "latitude": 22.79145504404888
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 24,
+        "fields": {
+            "text": "sake",
+            "type": "noun",
+            "definition": "A traditional Japanese alcoholic beverage made from fermented rice.",
+            "origin": "Japan",
+            "longitude": 140.65771731614396,
+            "latitude": 34.11724040133269
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 25,
+        "fields": {
+            "text": "umami",
+            "type": "noun",
+            "definition": "One of the five basic tastes, often described as a savory or meaty flavor.",
+            "origin": "Japan",
+            "longitude": 134.77184909895286,
+            "latitude": 37.87105717737192
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 26,
+        "fields": {
+            "text": "miso",
+            "type": "noun",
+            "definition": "A fermented soybean paste commonly used in Japanese cuisine, known for its umami flavor.",
+            "origin": "Japan",
+            "longitude": 138.26904353424425,
+            "latitude": 36.83273012712882
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 27,
+        "fields": {
+            "text": "soba",
+            "type": "noun",
+            "definition": "A type of Japanese noodle made from buckwheat flour, often served in broth or with dipping sauces.",
+            "origin": "Japan",
+            "longitude": 137.59708384486237,
+            "latitude": 34.67305357398642
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 28,
+        "fields": {
+            "text": "wasabi",
+            "type": "noun",
+            "definition": "A pungent green condiment made from the root of the wasabi plant, often served with sushi and sashimi.",
+            "origin": "Japan",
+            "longitude": 138.71741053304854,
+            "latitude": 38.71520302509915
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 29,
+        "fields": {
+            "text": "sashimi",
+            "type": "noun",
+            "definition": "A Japanese dish consisting of thinly sliced raw fish or seafood, often served with wasabi and soy sauce.",
+            "origin": "Japan",
+            "longitude": 135.48406171769523,
+            "latitude": 37.06114861788186
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 30,
+        "fields": {
+            "text": "tempura",
+            "type": "noun",
+            "definition": "A Japanese dish consisting of battered and deep-fried seafood or vegetables.",
+            "origin": "Japan",
+            "longitude": 139.73676327180678,
+            "latitude": 35.25493651533246
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 31,
+        "fields": {
+            "text": "karaoke",
+            "type": "noun",
+            "definition": "A form of entertainment in which amateur singers perform along with recorded music, typically using a microphone.",
+            "origin": "Japan",
+            "longitude": 138.2997960516249,
+            "latitude": 37.148861815848676
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 32,
+        "fields": {
+            "text": "origami",
+            "type": "noun",
+            "definition": "The Japanese art of folding paper into decorative shapes and figures.",
+            "origin": "Japan",
+            "longitude": 140.89174641940122,
+            "latitude": 36.00972652968152
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 33,
+        "fields": {
+            "text": "bonsai",
+            "type": "noun",
+            "definition": "The Japanese art of growing miniature trees in small containers.",
+            "origin": "Japan",
+            "longitude": 137.9847997583852,
+            "latitude": 36.20681145332546
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 34,
+        "fields": {
+            "text": "kimono",
+            "type": "noun",
+            "definition": "A traditional Japanese robe-like garment, often worn on formal occasions.",
+            "origin": "Japan",
+            "longitude": 138.2380502440212,
+            "latitude": 36.18576997501527
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 35,
+        "fields": {
+            "text": "geisha",
+            "type": "noun",
+            "definition": "A traditional Japanese female entertainer skilled in music, dance, and conversation.",
+            "origin": "Japan",
+            "longitude": 137.7056360277034,
+            "latitude": 35.609650063917556
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 36,
+        "fields": {
+            "text": "ninja",
+            "type": "noun",
+            "definition": "A covert agent or mercenary in feudal Japan, skilled in espionage, sabotage, and guerrilla warfare.",
+            "origin": "Japan",
+            "longitude": 135.70079041047364,
+            "latitude": 36.25869079141813
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 37,
+        "fields": {
+            "text": "sumo",
+            "type": "noun",
+            "definition": "A form of wrestling in Japan where two competitors attempt to force each other out of a circular ring or onto the ground.",
+            "origin": "Japan",
+            "longitude": 139.43470969068355,
+            "latitude": 35.341376902703914
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 38,
+        "fields": {
+            "text": "typhoon",
+            "type": "noun",
+            "definition": "A tropical cyclone occurring in the Western Pacific or Indian Ocean regions, bringing strong winds and heavy rain.",
+            "origin": "China",
+            "longitude": 104.81355151952349,
+            "latitude": 32.57657144473028
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 39,
+        "fields": {
+            "text": "bamboo",
+            "type": "noun",
+            "definition": "A tall, woody grass often used in construction, crafts, and as food for pandas.",
+            "origin": "China",
+            "longitude": 103.90304557740977,
+            "latitude": 35.63667097358411
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 40,
+        "fields": {
+            "text": "soy",
+            "type": "noun",
+            "definition": "A protein-rich legume often used as a source of food, particularly in East Asian cuisine.",
+            "origin": "China",
+            "longitude": 104.96491865160448,
+            "latitude": 35.59112092030819
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 41,
+        "fields": {
+            "text": "noodle",
+            "type": "noun",
+            "definition": "A long, thin strip of dough often used in cooking as a base for various dishes.",
+            "origin": "China",
+            "longitude": 105.139181777701,
+            "latitude": 32.8638331773465
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 42,
+        "fields": {
+            "text": "cantonese",
+            "type": "noun",
+            "definition": "A variety of the Chinese language spoken in the southern provinces of China, including the city of Guangzhou.",
+            "origin": "China",
+            "longitude": 102.70820888170915,
+            "latitude": 37.28299344642811
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 43,
+        "fields": {
+            "text": "mandarin",
+            "type": "noun",
+            "definition": "The official language of China, spoken by the majority of the population.",
+            "origin": "China",
+            "longitude": 104.23102086909408,
+            "latitude": 38.06734131150026
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 44,
+        "fields": {
+            "text": "wok",
+            "type": "noun",
+            "definition": "A large, bowl-shaped frying pan used in Chinese cooking for stir-frying and deep-frying.",
+            "origin": "China",
+            "longitude": 105.9008804071822,
+            "latitude": 34.36044380310803
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 45,
+        "fields": {
+            "text": "ginseng",
+            "type": "noun",
+            "definition": "A medicinal herb known for its health benefits, often used in traditional Chinese medicine.",
+            "origin": "China",
+            "longitude": 104.52356256755641,
+            "latitude": 36.19760987441423
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 46,
+        "fields": {
+            "text": "kumquat",
+            "type": "noun",
+            "definition": "A small, citrus fruit with a sweet and sour flavor, often eaten whole.",
+            "origin": "China",
+            "longitude": 102.02262922192241,
+            "latitude": 35.954522044090176
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 47,
+        "fields": {
+            "text": "pomegranate",
+            "type": "noun",
+            "definition": "A fruit with a tough outer skin and juicy seeds, known for its health benefits.",
+            "origin": "Iran",
+            "longitude": 50.72592575210123,
+            "latitude": 33.428054377882845
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 48,
+        "fields": {
+            "text": "chess",
+            "type": "noun",
+            "definition": "A strategic board game of Persian origin played on an 8x8 grid with two opposing players.",
+            "origin": "India",
+            "longitude": 78.65003925749328,
+            "latitude": 22.587289872610985
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 49,
+        "fields": {
+            "text": "persimmon",
+            "type": "noun",
+            "definition": "A fruit known for its sweet flavor, often eaten fresh or dried.",
+            "origin": "China",
+            "longitude": 101.1756330929709,
+            "latitude": 33.628783341178945
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 50,
+        "fields": {
+            "text": "lychee",
+            "type": "noun",
+            "definition": "A small fruit with a rough, red shell and sweet, juicy flesh.",
+            "origin": "China",
+            "longitude": 107.40386985930478,
+            "latitude": 35.19650683847382
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 51,
+        "fields": {
+            "text": "zen",
+            "type": "noun",
+            "definition": "A form of Mahayana Buddhism that emphasizes meditation and intuition over ritual worship or scripture study.",
+            "origin": "China",
+            "longitude": 103.70400475746507,
+            "latitude": 32.329904309804355
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 52,
+        "fields": {
+            "text": "mahjong",
+            "type": "noun",
+            "definition": "A tile-based game that originated in China and is similar to the Western card game rummy.",
+            "origin": "China",
+            "longitude": 104.57777069412778,
+            "latitude": 36.76518567726228
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 53,
+        "fields": {
+            "text": "junk",
+            "type": "noun",
+            "definition": "A type of ancient Chinese sailing ship, characterized by its square sails and sturdy structure.",
+            "origin": "China",
+            "longitude": 103.06154190973237,
+            "latitude": 35.175995946840956
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 54,
+        "fields": {
+            "text": "sherbet",
+            "type": "noun",
+            "definition": "A sweet frozen dessert made from fruit juice or syrup mixed with milk or cream.",
+            "origin": "Middle East",
+            "longitude": 41.355964894156,
+            "latitude": 21.994209766556697
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 55,
+        "fields": {
+            "text": "dim sum",
+            "type": "noun",
+            "definition": "A traditional Chinese meal of small dishes, including dumplings, buns, and other bites.",
+            "origin": "China",
+            "longitude": 103.97131855178543,
+            "latitude": 37.79170776228406
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 56,
+        "fields": {
+            "text": "kung fu",
+            "type": "noun",
+            "definition": "A Chinese martial art focusing on self-defense and discipline.",
+            "origin": "China",
+            "longitude": 103.58339753116454,
+            "latitude": 33.897369986358854
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 57,
+        "fields": {
+            "text": "toboggan",
+            "type": "noun",
+            "definition": "A long, narrow sled used for sliding over snow or ice.",
+            "origin": "Canada",
+            "longitude": -106.3468,
+            "latitude": 56.1304
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 58,
+        "fields": {
+            "text": "moose",
+            "type": "noun",
+            "definition": "A large herbivorous mammal found in North America and Eurasia, known for its antlers.",
+            "origin": "Canada",
+            "longitude": -107.38861057922419,
+            "latitude": 57.947361097408944
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 59,
+        "fields": {
+            "text": "hammock",
+            "type": "noun",
+            "definition": "A hanging bed made of canvas or netting, often suspended between two points.",
+            "origin": "Caribbean",
+            "longitude": -77.21224078893135,
+            "latitude": 17.44263856358787
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 60,
+        "fields": {
+            "text": "chocolate",
+            "type": "noun",
+            "definition": "A sweet confection made from cacao beans, often used in cooking and baking.",
+            "origin": "Mexico",
+            "longitude": -102.67202691445645,
+            "latitude": 23.68529575760557
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 61,
+        "fields": {
+            "text": "guacamole",
+            "type": "noun",
+            "definition": "A Mexican dip made from mashed avocado, lime juice, and other ingredients.",
+            "origin": "Mexico",
+            "longitude": -100.13141888014155,
+            "latitude": 25.3956807104808
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 62,
+        "fields": {
+            "text": "coyote",
+            "type": "noun",
+            "definition": "A wild canine found in North America, known for its adaptability.",
+            "origin": "Mexico",
+            "longitude": -102.52174841957948,
+            "latitude": 23.420695496617977
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 63,
+        "fields": {
+            "text": "chipotle",
+            "type": "noun",
+            "definition": "A smoke-dried jalapeo chili pepper, often used in Mexican cuisine.",
+            "origin": "Mexico",
+            "longitude": -102.0899039666773,
+            "latitude": 25.317411340703256
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 64,
+        "fields": {
+            "text": "mole",
+            "type": "noun",
+            "definition": "A rich sauce in Mexican cuisine, often made with chili peppers, chocolate, and spices.",
+            "origin": "Mexico",
+            "longitude": -103.66719759633416,
+            "latitude": 21.11972980265707
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 65,
+        "fields": {
+            "text": "quesadilla",
+            "type": "noun",
+            "definition": "A Mexican dish made with a tortilla filled with cheese and other ingredients, then folded and cooked.",
+            "origin": "Mexico",
+            "longitude": -104.78081316558062,
+            "latitude": 20.540913544792595
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 66,
+        "fields": {
+            "text": "pasta",
+            "type": "noun",
+            "definition": "A dish made from unleavened dough of wheat flour, water, and eggs, often served with sauces.",
+            "origin": "Italy",
+            "longitude": 12.5674,
+            "latitude": 41.8719
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 67,
+        "fields": {
+            "text": "pizza",
+            "type": "noun",
+            "definition": "A dish made of a flat round base of dough topped with tomato sauce, cheese, and other ingredients.",
+            "origin": "Italy",
+            "longitude": 15.20708792355099,
+            "latitude": 41.12482564569081
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 68,
+        "fields": {
+            "text": "lasagna",
+            "type": "noun",
+            "definition": "A traditional Italian dish made with layers of pasta, meat or vegetables, and cheese, baked in the oven.",
+            "origin": "Italy",
+            "longitude": 14.131596043197016,
+            "latitude": 43.90957561778123
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 69,
+        "fields": {
+            "text": "espresso",
+            "type": "noun",
+            "definition": "A strong, concentrated coffee brewed by forcing hot water through finely ground coffee beans.",
+            "origin": "Italy",
+            "longitude": 15.706428668458049,
+            "latitude": 40.35847455090226
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 70,
+        "fields": {
+            "text": "gelato",
+            "type": "noun",
+            "definition": "An Italian-style ice cream made with less cream and more milk, often with natural flavorings.",
+            "origin": "Italy",
+            "longitude": 12.538804352344448,
+            "latitude": 41.89510357060944
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 71,
+        "fields": {
+            "text": "biscotti",
+            "type": "noun",
+            "definition": "An Italian biscuit that is twice-baked and often flavored with almonds.",
+            "origin": "Italy",
+            "longitude": 10.571322336661174,
+            "latitude": 41.24549131639556
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 72,
+        "fields": {
+            "text": "risotto",
+            "type": "noun",
+            "definition": "An Italian dish made with rice cooked in broth until creamy, often with added ingredients such as vegetables or seafood.",
+            "origin": "Italy",
+            "longitude": 11.971491909426371,
+            "latitude": 41.180756077211775
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 73,
+        "fields": {
+            "text": "cappuccino",
+            "type": "noun",
+            "definition": "An Italian coffee drink made with espresso and steamed milk, often topped with foam.",
+            "origin": "Italy",
+            "longitude": 10.7629541340962,
+            "latitude": 44.61562103234465
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 74,
+        "fields": {
+            "text": "tiramisu",
+            "type": "noun",
+            "definition": "A classic Italian dessert made with layers of coffee-soaked ladyfingers and mascarpone cheese.",
+            "origin": "Italy",
+            "longitude": 10.915479047477616,
+            "latitude": 42.199631641318206
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 75,
+        "fields": {
+            "text": "panini",
+            "type": "noun",
+            "definition": "An Italian-style sandwich made with bread such as ciabatta and filled with ingredients such as cheese, meat, or vegetables.",
+            "origin": "Italy",
+            "longitude": 13.913400914132701,
+            "latitude": 42.19717883301012
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 76,
+        "fields": {
+            "text": "calzone",
+            "type": "noun",
+            "definition": "An Italian dish resembling a folded pizza, often filled with cheese, meat, and vegetables.",
+            "origin": "Italy",
+            "longitude": 12.710794220141544,
+            "latitude": 41.893810399588375
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 77,
+        "fields": {
+            "text": "spaghetti",
+            "type": "noun",
+            "definition": "A type of long, thin pasta that is often served with tomato sauce and meat or vegetables.",
+            "origin": "Italy",
+            "longitude": 15.00557913644282,
+            "latitude": 44.608485969092314
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 78,
+        "fields": {
+            "text": "polenta",
+            "type": "noun",
+            "definition": "A traditional Italian dish made from boiled cornmeal, often served as a side dish or base for other ingredients.",
+            "origin": "Italy",
+            "longitude": 11.635722437157847,
+            "latitude": 43.93010224322199
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 79,
+        "fields": {
+            "text": "gnocchi",
+            "type": "noun",
+            "definition": "A type of Italian dumpling made from potato, flour, and other ingredients, often served with sauce.",
+            "origin": "Italy",
+            "longitude": 11.462708911672543,
+            "latitude": 39.42982068268157
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 80,
+        "fields": {
+            "text": "bruschetta",
+            "type": "noun",
+            "definition": "An Italian appetizer consisting of grilled bread topped with tomatoes, basil, and other ingredients.",
+            "origin": "Italy",
+            "longitude": 12.949936567817467,
+            "latitude": 44.08612043903116
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 81,
+        "fields": {
+            "text": "truffle",
+            "type": "noun",
+            "definition": "A type of edible fungus found underground, known for its distinctive flavor and aroma.",
+            "origin": "Italy",
+            "longitude": 14.274853091853895,
+            "latitude": 39.781676538789085
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 82,
+        "fields": {
+            "text": "focaccia",
+            "type": "noun",
+            "definition": "A type of Italian flatbread often seasoned with olive oil, rosemary, and other herbs.",
+            "origin": "Italy",
+            "longitude": 13.645692404464667,
+            "latitude": 42.48878226682465
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 83,
+        "fields": {
+            "text": "prosecco",
+            "type": "noun",
+            "definition": "An Italian sparkling wine made primarily from Glera grapes, known for its light and fruity flavor.",
+            "origin": "Italy",
+            "longitude": 14.295808797971352,
+            "latitude": 38.97494071213614
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 84,
+        "fields": {
+            "text": "limoncello",
+            "type": "noun",
+            "definition": "An Italian lemon liqueur made by infusing lemon zest in alcohol and sweetening with simple syrup.",
+            "origin": "Italy",
+            "longitude": 10.530970527873471,
+            "latitude": 42.593591325314776
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 85,
+        "fields": {
+            "text": "ciabatta",
+            "type": "noun",
+            "definition": "An Italian white bread known for its porous texture and chewy crust.",
+            "origin": "Italy",
+            "longitude": 13.30175242029254,
+            "latitude": 41.76328953680426
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 86,
+        "fields": {
+            "text": "balsamic",
+            "type": "noun",
+            "definition": "A dark, rich vinegar from Italy, known for its complex, sweet-tart flavor.",
+            "origin": "Italy",
+            "longitude": 12.577262835634379,
+            "latitude": 41.81751785292467
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 87,
+        "fields": {
+            "text": "macchiato",
+            "type": "noun",
+            "definition": "A type of coffee drink made with espresso and a small amount of steamed milk.",
+            "origin": "Italy",
+            "longitude": 13.061202538361915,
+            "latitude": 41.55564260789508
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 88,
+        "fields": {
+            "text": "sorbetto",
+            "type": "noun",
+            "definition": "An Italian frozen dessert similar to sorbet, made from fruit juice, sugar, and water.",
+            "origin": "Italy",
+            "longitude": 12.527451627087114,
+            "latitude": 42.27735201273886
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 89,
+        "fields": {
+            "text": "chianti",
+            "type": "noun",
+            "definition": "An Italian red wine made primarily from Sangiovese grapes, often associated with Tuscany.",
+            "origin": "Italy",
+            "longitude": 11.391634183747922,
+            "latitude": 41.72116816438243
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 90,
+        "fields": {
+            "text": "negroni",
+            "type": "noun",
+            "definition": "An Italian cocktail made with equal parts gin, vermouth, and Campari, often garnished with an orange peel.",
+            "origin": "Italy",
+            "longitude": 15.54137217177544,
+            "latitude": 43.399010690433116
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 91,
+        "fields": {
+            "text": "aperitivo",
+            "type": "noun",
+            "definition": "An Italian pre-dinner drink, often a bitter or herbal liqueur mixed with soda or wine.",
+            "origin": "Italy",
+            "longitude": 15.227380386913964,
+            "latitude": 41.29131263221006
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 92,
+        "fields": {
+            "text": "cicchetti",
+            "type": "noun",
+            "definition": "Small snacks or appetizers served in Venice, often paired with a glass of wine or an aperitif.",
+            "origin": "Italy",
+            "longitude": 13.133993456951764,
+            "latitude": 40.26621368392383
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 93,
+        "fields": {
+            "text": "carbonara",
+            "type": "noun",
+            "definition": "A traditional Italian pasta dish made with eggs, cheese, pancetta, and pepper.",
+            "origin": "Italy",
+            "longitude": 14.469837505786584,
+            "latitude": 44.05729656521336
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 94,
+        "fields": {
+            "text": "panettone",
+            "type": "noun",
+            "definition": "An Italian sweet bread loaf often enjoyed during Christmas and New Year, typically filled with candied fruit and raisins.",
+            "origin": "Italy",
+            "longitude": 12.195813391025867,
+            "latitude": 41.38365225698054
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 95,
+        "fields": {
+            "text": "gianduja",
+            "type": "noun",
+            "definition": "An Italian chocolate hazelnut paste often used as a filling in desserts.",
+            "origin": "Italy",
+            "longitude": 13.707336785829739,
+            "latitude": 40.196338553854844
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 96,
+        "fields": {
+            "text": "mascarpone",
+            "type": "noun",
+            "definition": "An Italian soft cheese made from cream, often used in desserts like tiramisu.",
+            "origin": "Italy",
+            "longitude": 13.072854368148205,
+            "latitude": 41.16467669574261
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 97,
+        "fields": {
+            "text": "grappa",
+            "type": "noun",
+            "definition": "An Italian brandy made from the pomace of grapes used in winemaking.",
+            "origin": "Italy",
+            "longitude": 10.224121202688295,
+            "latitude": 40.20483267108204
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 98,
+        "fields": {
+            "text": "parmesan",
+            "type": "noun",
+            "definition": "A hard, granular cheese from Italy known for its savory flavor and often grated over dishes.",
+            "origin": "Italy",
+            "longitude": 13.427383821657736,
+            "latitude": 42.267730033361765
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 99,
+        "fields": {
+            "text": "gorgonzola",
+            "type": "noun",
+            "definition": "An Italian blue cheese with a strong flavor, often used in salads and sauces.",
+            "origin": "Italy",
+            "longitude": 15.75617755802303,
+            "latitude": 41.73396943321876
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 100,
+        "fields": {
+            "text": "pecorino",
+            "type": "noun",
+            "definition": "An Italian cheese made from sheep's milk, known for its sharp flavor.",
+            "origin": "Italy",
+            "longitude": 13.139143141750875,
+            "latitude": 41.34366196286775
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 101,
+        "fields": {
+            "text": "fontina",
+            "type": "noun",
+            "definition": "An Italian semi-soft cheese known for its creamy texture and mild flavor.",
+            "origin": "Italy",
+            "longitude": 16.122534562850245,
+            "latitude": 43.26916847685776
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 102,
+        "fields": {
+            "text": "ricotta",
+            "type": "noun",
+            "definition": "An Italian cheese made from whey, often used in lasagna, ravioli, and desserts.",
+            "origin": "Italy",
+            "longitude": 14.723468365693828,
+            "latitude": 41.599914084611264
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 103,
+        "fields": {
+            "text": "marsala",
+            "type": "noun",
+            "definition": "A fortified wine from Sicily, often used in cooking and sauces.",
+            "origin": "Italy",
+            "longitude": 11.89364817662219,
+            "latitude": 45.1990164378569
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 104,
+        "fields": {
+            "text": "fettuccine",
+            "type": "noun",
+            "definition": "A type of pasta shaped like long, flat ribbons, often served with Alfredo sauce.",
+            "origin": "Italy",
+            "longitude": 13.862295926823577,
+            "latitude": 39.66298052871841
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 105,
+        "fields": {
+            "text": "penne",
+            "type": "noun",
+            "definition": "A type of pasta shaped like tubes with diagonally cut ends, often served with sauces.",
+            "origin": "Italy",
+            "longitude": 13.486209795230193,
+            "latitude": 41.239493907787185
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 106,
+        "fields": {
+            "text": "ravioli",
+            "type": "noun",
+            "definition": "A type of Italian pasta filled with cheese, meat, or vegetables, often served with sauce.",
+            "origin": "Italy",
+            "longitude": 11.013730651073473,
+            "latitude": 44.32928688358246
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 107,
+        "fields": {
+            "text": "tortellini",
+            "type": "noun",
+            "definition": "A type of stuffed pasta shaped like a ring, often filled with cheese or meat and served in broth.",
+            "origin": "Italy",
+            "longitude": 14.104293750898357,
+            "latitude": 44.002005796458164
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 108,
+        "fields": {
+            "text": "cannoli",
+            "type": "noun",
+            "definition": "An Italian dessert consisting of a tube-shaped pastry filled with sweet, creamy ricotta.",
+            "origin": "Italy",
+            "longitude": 12.202713913533598,
+            "latitude": 38.89934676398827
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 109,
+        "fields": {
+            "text": "spumoni",
+            "type": "noun",
+            "definition": "An Italian ice cream made with layers of different flavors, often including candied fruit and nuts.",
+            "origin": "Italy",
+            "longitude": 13.571837156779532,
+            "latitude": 44.03667982218438
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 110,
+        "fields": {
+            "text": "amaretto",
+            "type": "noun",
+            "definition": "An Italian liqueur made from almonds and apricot pits, known for its sweet, nutty flavor.",
+            "origin": "Italy",
+            "longitude": 12.466160662591362,
+            "latitude": 42.01065939237067
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 111,
+        "fields": {
+            "text": "provolone",
+            "type": "noun",
+            "definition": "An Italian semi-hard cheese known for its distinct flavor and smooth texture.",
+            "origin": "Italy",
+            "longitude": 10.310863287882233,
+            "latitude": 40.7881077245873
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 112,
+        "fields": {
+            "text": "caprese",
+            "type": "noun",
+            "definition": "A simple Italian salad made with fresh tomatoes, mozzarella cheese, and basil, often drizzled with olive oil and balsamic vinegar.",
+            "origin": "Italy",
+            "longitude": 13.071776398159157,
+            "latitude": 41.46576175073092
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 113,
+        "fields": {
+            "text": "trattoria",
+            "type": "noun",
+            "definition": "An Italian-style restaurant known for serving traditional and hearty dishes in a casual atmosphere.",
+            "origin": "Italy",
+            "longitude": 13.245524413436288,
+            "latitude": 41.8815739040761
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 114,
+        "fields": {
+            "text": "bistecca",
+            "type": "noun",
+            "definition": "An Italian-style steak often seasoned with olive oil, rosemary, and garlic.",
+            "origin": "Italy",
+            "longitude": 10.634364570830542,
+            "latitude": 43.73656850322667
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 115,
+        "fields": {
+            "text": "aperol",
+            "type": "noun",
+            "definition": "An Italian aperitif known for its bright orange color and bittersweet flavor, often used in cocktails like Aperol Spritz.",
+            "origin": "Italy",
+            "longitude": 10.128248480209752,
+            "latitude": 43.69860815773126
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 116,
+        "fields": {
+            "text": "bomboloni",
+            "type": "noun",
+            "definition": "An Italian pastry similar to a donut, often filled with jam or cream and coated in sugar.",
+            "origin": "Italy",
+            "longitude": 15.201945514667475,
+            "latitude": 40.66273182117608
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 117,
+        "fields": {
+            "text": "tael",
+            "type": "noun",
+            "definition": "A Chinese unit of weight, typically used to measure precious metals like gold and silver.",
+            "origin": "China",
+            "longitude": 105.61553400639035,
+            "latitude": 34.60263993575526
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 118,
+        "fields": {
+            "text": "judo",
+            "type": "noun",
+            "definition": "A Japanese martial art focusing on throws and grappling techniques, emphasizing skill over strength.",
+            "origin": "Japan",
+            "longitude": 137.51611879338722,
+            "latitude": 36.01160263771208
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 119,
+        "fields": {
+            "text": "bento",
+            "type": "noun",
+            "definition": "A Japanese single-portion meal typically served in a box and including rice, vegetables, and protein.",
+            "origin": "Japan",
+            "longitude": 140.04934481700937,
+            "latitude": 34.36515983613394
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 120,
+        "fields": {
+            "text": "nori",
+            "type": "noun",
+            "definition": "A type of edible seaweed often used to wrap sushi and other Japanese dishes.",
+            "origin": "Japan",
+            "longitude": 138.97053033675732,
+            "latitude": 39.400864827514255
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 121,
+        "fields": {
+            "text": "ramen",
+            "type": "noun",
+            "definition": "A Japanese noodle soup dish often served with meat, eggs, and vegetables in a flavorful broth.",
+            "origin": "Japan",
+            "longitude": 141.49856532019808,
+            "latitude": 36.27751728884306
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 122,
+        "fields": {
+            "text": "matcha",
+            "type": "noun",
+            "definition": "A finely ground powder of specially grown and processed green tea leaves, often used in Japanese tea ceremonies.",
+            "origin": "Japan",
+            "longitude": 141.97484147625482,
+            "latitude": 35.20553129106132
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 123,
+        "fields": {
+            "text": "karate",
+            "type": "noun",
+            "definition": "A Japanese martial art focusing on striking techniques such as punching, kicking, and open-hand strikes.",
+            "origin": "Japan",
+            "longitude": 137.7361205090324,
+            "latitude": 34.40237702971407
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 124,
+        "fields": {
+            "text": "tatami",
+            "type": "noun",
+            "definition": "A type of mat used as flooring in traditional Japanese rooms, often made from rice straw.",
+            "origin": "Japan",
+            "longitude": 137.924391039244,
+            "latitude": 39.413716275901415
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 125,
+        "fields": {
+            "text": "yakitori",
+            "type": "noun",
+            "definition": "A Japanese dish of skewered and grilled chicken, often seasoned with salt or sauce.",
+            "origin": "Japan",
+            "longitude": 137.8162160956775,
+            "latitude": 36.82321157037345
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 126,
+        "fields": {
+            "text": "samurai",
+            "type": "noun",
+            "definition": "A member of the Japanese warrior class, known for their code of conduct and martial skills.",
+            "origin": "Japan",
+            "longitude": 140.7572829163017,
+            "latitude": 34.175013404089285
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 127,
+        "fields": {
+            "text": "ronin",
+            "type": "noun",
+            "definition": "In feudal Japan, a masterless samurai warrior.",
+            "origin": "Japan",
+            "longitude": 141.0958607940309,
+            "latitude": 34.08903290398551
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 128,
+        "fields": {
+            "text": "haiku",
+            "type": "noun",
+            "definition": "A traditional Japanese form of poetry consisting of three lines with syllable counts of 5, 7, and 5.",
+            "origin": "Japan",
+            "longitude": 140.89997986925852,
+            "latitude": 37.73701053420434
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 129,
+        "fields": {
+            "text": "kabuki",
+            "type": "noun",
+            "definition": "A traditional Japanese form of drama with elaborate makeup, costumes, and stylized movements.",
+            "origin": "Japan",
+            "longitude": 137.79639624723072,
+            "latitude": 37.063613041302744
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 130,
+        "fields": {
+            "text": "teriyaki",
+            "type": "noun",
+            "definition": "A Japanese cooking technique involving grilling or broiling meat or fish marinated in a sauce.",
+            "origin": "Japan",
+            "longitude": 138.14496083571717,
+            "latitude": 36.93351183715284
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 131,
+        "fields": {
+            "text": "tsunami",
+            "type": "noun",
+            "definition": "A large ocean wave caused by an underwater earthquake, volcanic eruption, or other disturbances.",
+            "origin": "Japan",
+            "longitude": 138.408954590393,
+            "latitude": 34.844319943756915
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 132,
+        "fields": {
+            "text": "manga",
+            "type": "noun",
+            "definition": "A style of Japanese comic books and graphic novels known for its distinct artistic style.",
+            "origin": "Japan",
+            "longitude": 138.17801401089687,
+            "latitude": 37.468932793133234
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 133,
+        "fields": {
+            "text": "anime",
+            "type": "noun",
+            "definition": "A style of Japanese animated films and television shows known for its vibrant visuals and unique storylines.",
+            "origin": "Japan",
+            "longitude": 136.2020007282331,
+            "latitude": 37.735283186691674
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 134,
+        "fields": {
+            "text": "ukiyo-e",
+            "type": "noun",
+            "definition": "A genre of Japanese art that depicts scenes from everyday life and the floating world.",
+            "origin": "Japan",
+            "longitude": 140.34604652599148,
+            "latitude": 34.60322075164019
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 135,
+        "fields": {
+            "text": "daikon",
+            "type": "noun",
+            "definition": "A large white radish commonly used in Japanese cuisine, often served raw, pickled, or cooked.",
+            "origin": "Japan",
+            "longitude": 137.7449632201961,
+            "latitude": 34.657141220389654
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 136,
+        "fields": {
+            "text": "chopsticks",
+            "type": "noun",
+            "definition": "Thin, tapered eating utensils commonly used in East Asian countries like China and Japan.",
+            "origin": "China",
+            "longitude": 102.23094570544704,
+            "latitude": 37.96802959275688
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 137,
+        "fields": {
+            "text": "chow mein",
+            "type": "noun",
+            "definition": "A Chinese noodle dish typically stir-fried with vegetables and meat or seafood.",
+            "origin": "China",
+            "longitude": 102.73631199877777,
+            "latitude": 38.2416044323143
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 138,
+        "fields": {
+            "text": "mu shu",
+            "type": "noun",
+            "definition": "A Chinese dish made with stir-fried meat and vegetables, often served with thin pancakes.",
+            "origin": "China",
+            "longitude": 106.10145729467865,
+            "latitude": 38.350128943086744
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 139,
+        "fields": {
+            "text": "won ton",
+            "type": "noun",
+            "definition": "A Chinese dumpling often filled with meat or vegetables and served in broth or fried.",
+            "origin": "China",
+            "longitude": 100.44032351470345,
+            "latitude": 36.300719781701716
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 140,
+        "fields": {
+            "text": "chowder",
+            "type": "noun",
+            "definition": "A thick soup, often containing seafood or corn, that originated in North America but has roots in France.",
+            "origin": "France",
+            "longitude": 4.462013449146642,
+            "latitude": 46.38979600398841
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 141,
+        "fields": {
+            "text": "broccoli",
+            "type": "noun",
+            "definition": "A green vegetable in the cabbage family, often steamed or sauted.",
+            "origin": "Italy",
+            "longitude": 10.346862518839004,
+            "latitude": 44.34212277652859
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 142,
+        "fields": {
+            "text": "melon",
+            "type": "noun",
+            "definition": "A sweet, fleshy fruit that belongs to the gourd family, often eaten fresh or in fruit salads.",
+            "origin": "Africa",
+            "longitude": 34.2234,
+            "latitude": -1.2921
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 143,
+        "fields": {
+            "text": "quinoa",
+            "type": "noun",
+            "definition": "A grain crop that is grown primarily for its edible seeds, often used as a substitute for rice or other grains.",
+            "origin": "South America",
+            "longitude": -58.4438,
+            "latitude": -14.235
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 144,
+        "fields": {
+            "text": "tortilla",
+            "type": "noun",
+            "definition": "A thin, flat round of unleavened corn or wheat flour used as the base for many Mexican dishes.",
+            "origin": "Mexico",
+            "longitude": -102.93571363228847,
+            "latitude": 23.22038386794201
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 145,
+        "fields": {
+            "text": "tamale",
+            "type": "noun",
+            "definition": "A traditional Mesoamerican dish made of masa or dough stuffed with fillings, wrapped in corn husks, and steamed.",
+            "origin": "Mexico",
+            "longitude": -102.68323498586065,
+            "latitude": 24.680128595700168
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 146,
+        "fields": {
+            "text": "mango",
+            "type": "noun",
+            "definition": "A tropical fruit with sweet, juicy flesh and a large seed, native to South Asia.",
+            "origin": "South Asia",
+            "longitude": 80.7718,
+            "latitude": 7.8731
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 147,
+        "fields": {
+            "text": "cardamom",
+            "type": "noun",
+            "definition": "A spice made from the seeds of several plants in the ginger family, often used in Indian cuisine.",
+            "origin": "India",
+            "longitude": 77.25636971360059,
+            "latitude": 22.562246959592894
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 148,
+        "fields": {
+            "text": "turmeric",
+            "type": "noun",
+            "definition": "A bright yellow spice made from the root of Curcuma longa, often used in Indian cuisine and for its health benefits.",
+            "origin": "India",
+            "longitude": 82.70762927504568,
+            "latitude": 20.831877414946742
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 149,
+        "fields": {
+            "text": "chutney",
+            "type": "noun",
+            "definition": "A condiment made from fruits, vegetables, or herbs, often mixed with vinegar, sugar, and spices, common in Indian cuisine.",
+            "origin": "India",
+            "longitude": 76.3639121259866,
+            "latitude": 18.62839386786837
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 150,
+        "fields": {
+            "text": "garam masala",
+            "type": "noun",
+            "definition": "A spice blend commonly used in Indian cuisine, typically containing cardamom, cumin, cloves, and cinnamon.",
+            "origin": "India",
+            "longitude": 79.92029415115094,
+            "latitude": 20.406717711608195
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 151,
+        "fields": {
+            "text": "biryani",
+            "type": "noun",
+            "definition": "A popular Indian rice dish cooked with spices, meat, or vegetables, often served with raita.",
+            "origin": "India",
+            "longitude": 80.41420417000117,
+            "latitude": 18.619789211992384
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 152,
+        "fields": {
+            "text": "tandoori",
+            "type": "noun",
+            "definition": "A style of cooking that involves marinating meat in yogurt and spices, then cooking it in a tandoor oven.",
+            "origin": "India",
+            "longitude": 75.58111491405572,
+            "latitude": 19.768210845692973
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 153,
+        "fields": {
+            "text": "vindaloo",
+            "type": "noun",
+            "definition": "A spicy Indian curry dish typically made with vinegar, garlic, and chili peppers.",
+            "origin": "India",
+            "longitude": 75.4529335102451,
+            "latitude": 21.599011443071934
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 154,
+        "fields": {
+            "text": "samosa",
+            "type": "noun",
+            "definition": "A savory pastry filled with spiced vegetables, meat, or lentils, commonly found in Indian cuisine.",
+            "origin": "India",
+            "longitude": 77.87204413457825,
+            "latitude": 24.249847233798086
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 155,
+        "fields": {
+            "text": "chai",
+            "type": "noun",
+            "definition": "A spiced tea made by brewing black tea with spices such as cinnamon, cardamom, and ginger.",
+            "origin": "India",
+            "longitude": 78.4606917805237,
+            "latitude": 19.06225802544264
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 156,
+        "fields": {
+            "text": "pappadam",
+            "type": "noun",
+            "definition": "A thin, crispy Indian flatbread made from lentil flour, often served as a snack or accompaniment to meals.",
+            "origin": "India",
+            "longitude": 79.31028603450417,
+            "latitude": 20.9213179731645
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 157,
+        "fields": {
+            "text": "bindi",
+            "type": "noun",
+            "definition": "A decorative mark worn on the forehead, often by Hindu and Jain women as a symbol of cultural and religious identity.",
+            "origin": "India",
+            "longitude": 78.61456302237825,
+            "latitude": 17.16034132754652
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 158,
+        "fields": {
+            "text": "ghazal",
+            "type": "noun",
+            "definition": "A form of poetic expression, often focusing on themes of love and loss, that originated in Arabic poetry and is widely used in Persian and Urdu literature.",
+            "origin": "Persia",
+            "longitude": 52.79299895064489,
+            "latitude": 32.483958754167645
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 159,
+        "fields": {
+            "text": "satay",
+            "type": "noun",
+            "definition": "A Southeast Asian dish consisting of skewered and grilled meat, often served with peanut sauce.",
+            "origin": "Indonesia",
+            "longitude": 113.7465,
+            "latitude": -0.7893
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 160,
+        "fields": {
+            "text": "gamelan",
+            "type": "noun",
+            "definition": "A traditional ensemble of Indonesian music, typically featuring metallophones, drums, and gongs.",
+            "origin": "Indonesia",
+            "longitude": 111.66781076299552,
+            "latitude": -0.8438888297783531
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 161,
+        "fields": {
+            "text": "orangutan",
+            "type": "noun",
+            "definition": "A species of great ape native to the rainforests of Borneo and Sumatra, known for its reddish fur and long arms.",
+            "origin": "Indonesia",
+            "longitude": 115.44214192368364,
+            "latitude": -3.1702251126086276
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 162,
+        "fields": {
+            "text": "jasmine",
+            "type": "noun",
+            "definition": "A fragrant white flower that is often used to make tea and perfume, found in tropical and subtropical regions.",
+            "origin": "South Asia",
+            "longitude": 81.67594201203168,
+            "latitude": 4.89765263528872
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 163,
+        "fields": {
+            "text": "tamarind",
+            "type": "noun",
+            "definition": "A tropical fruit known for its sour flavor, often used in cooking and beverages in South Asia.",
+            "origin": "South Asia",
+            "longitude": 83.04306157227285,
+            "latitude": 7.195622701517629
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 164,
+        "fields": {
+            "text": "durian",
+            "type": "noun",
+            "definition": "A tropical fruit known for its strong odor and custard-like flesh, popular in Southeast Asia.",
+            "origin": "Southeast Asia",
+            "longitude": 103.8198,
+            "latitude": 1.3521
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 165,
+        "fields": {
+            "text": "lemongrass",
+            "type": "noun",
+            "definition": "A fragrant plant often used as a flavoring in Southeast Asian cuisine and teas.",
+            "origin": "Southeast Asia",
+            "longitude": 104.58141277280527,
+            "latitude": -0.43254478429531673
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 166,
+        "fields": {
+            "text": "tofu",
+            "type": "noun",
+            "definition": "A food made from soybeans, often used as a meat substitute in vegetarian and vegan dishes.",
+            "origin": "China",
+            "longitude": 105.07224967042963,
+            "latitude": 35.524611161836766
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 167,
+        "fields": {
+            "text": "cumin",
+            "type": "noun",
+            "definition": "A spice made from the dried seeds of the Cuminum cyminum plant, commonly used in Indian, Middle Eastern, and Mexican cuisine.",
+            "origin": "Egypt",
+            "longitude": 30.8025,
+            "latitude": 26.8206
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 168,
+        "fields": {
+            "text": "falafel",
+            "type": "noun",
+            "definition": "A Middle Eastern dish made from ground chickpeas or fava beans, often seasoned with herbs and spices, and fried.",
+            "origin": "Egypt",
+            "longitude": 29.966200054192562,
+            "latitude": 26.082096936723886
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 169,
+        "fields": {
+            "text": "hummus",
+            "type": "noun",
+            "definition": "A Middle Eastern dip made from mashed chickpeas, tahini, garlic, and lemon juice.",
+            "origin": "Lebanon",
+            "longitude": 35.8623,
+            "latitude": 33.8547
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 170,
+        "fields": {
+            "text": "kebob",
+            "type": "noun",
+            "definition": "A Middle Eastern dish consisting of skewered and grilled meat, often served with rice and vegetables.",
+            "origin": "Iran",
+            "longitude": 54.25960297439997,
+            "latitude": 33.76857098573377
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 171,
+        "fields": {
+            "text": "shawarma",
+            "type": "noun",
+            "definition": "A Middle Eastern dish made by grilling seasoned meat on a rotating spit and serving it in a wrap or pita.",
+            "origin": "Lebanon",
+            "longitude": 36.12302426200913,
+            "latitude": 34.27069112220468
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 172,
+        "fields": {
+            "text": "tabbouleh",
+            "type": "noun",
+            "definition": "A Middle Eastern salad made with bulgur wheat, tomatoes, cucumbers, parsley, and lemon juice.",
+            "origin": "Lebanon",
+            "longitude": 35.50814444257005,
+            "latitude": 31.50995112184848
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 173,
+        "fields": {
+            "text": "baklava",
+            "type": "noun",
+            "definition": "A Middle Eastern pastry made from layers of phyllo dough filled with chopped nuts and sweetened with syrup or honey.",
+            "origin": "Turkey",
+            "longitude": 34.76836811884292,
+            "latitude": 39.09764442656662
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 174,
+        "fields": {
+            "text": "baba ganoush",
+            "type": "noun",
+            "definition": "A Middle Eastern dip made from roasted eggplant, tahini, garlic, and lemon juice.",
+            "origin": "Lebanon",
+            "longitude": 37.638524345001045,
+            "latitude": 34.7089639788196
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 175,
+        "fields": {
+            "text": "halva",
+            "type": "noun",
+            "definition": "A Middle Eastern confection made from sesame paste (tahini) and sugar, often flavored with nuts and spices.",
+            "origin": "Middle East",
+            "longitude": 44.85989321098342,
+            "latitude": 22.251162578638528
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 176,
+        "fields": {
+            "text": "gyro",
+            "type": "noun",
+            "definition": "A Greek dish made from seasoned meat cooked on a vertical rotisserie and served in a pita with toppings.",
+            "origin": "Greece",
+            "longitude": 21.6741509166708,
+            "latitude": 38.501683156042894
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 177,
+        "fields": {
+            "text": "spanakopita",
+            "type": "noun",
+            "definition": "A Greek pastry made from layers of phyllo dough filled with spinach, feta cheese, and herbs.",
+            "origin": "Greece",
+            "longitude": 22.348929491808835,
+            "latitude": 39.23762548452883
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 178,
+        "fields": {
+            "text": "tzatziki",
+            "type": "noun",
+            "definition": "A Greek dip made from yogurt, cucumber, garlic, and dill, often served with grilled meats.",
+            "origin": "Greece",
+            "longitude": 22.599887038227845,
+            "latitude": 39.270719393553534
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 179,
+        "fields": {
+            "text": "doner",
+            "type": "noun",
+            "definition": "A Turkish dish made from seasoned meat cooked on a vertical rotisserie and served in pita bread.",
+            "origin": "Turkey",
+            "longitude": 32.70013499261246,
+            "latitude": 37.32492209126992
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 180,
+        "fields": {
+            "text": "kebab",
+            "type": "noun",
+            "definition": "A dish of skewered and grilled meat, often served with vegetables, originating from the Middle East.",
+            "origin": "Middle East",
+            "longitude": 41.51341902032841,
+            "latitude": 21.597983989003477
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 181,
+        "fields": {
+            "text": "phyllo",
+            "type": "noun",
+            "definition": "A thin, delicate pastry dough often used in Greek and Middle Eastern cuisines to make dishes like baklava.",
+            "origin": "Greece",
+            "longitude": 24.47620560741361,
+            "latitude": 39.57271420718017
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 182,
+        "fields": {
+            "text": "souvlaki",
+            "type": "noun",
+            "definition": "A Greek dish made from skewered and grilled meat, often served in pita bread with vegetables and sauce.",
+            "origin": "Greece",
+            "longitude": 21.67839545637691,
+            "latitude": 39.219243544373555
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 183,
+        "fields": {
+            "text": "feta",
+            "type": "noun",
+            "definition": "A type of Greek cheese made from sheep's or goat's milk, known for its crumbly texture and tangy flavor.",
+            "origin": "Greece",
+            "longitude": 21.521288028416283,
+            "latitude": 37.1688735380011
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 184,
+        "fields": {
+            "text": "ouzo",
+            "type": "noun",
+            "definition": "A Greek anise-flavored liqueur often served with water or ice, known for its milky appearance when mixed.",
+            "origin": "Greece",
+            "longitude": 17.961592516310134,
+            "latitude": 39.60177568628627
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 185,
+        "fields": {
+            "text": "mocha",
+            "type": "noun",
+            "definition": "A type of coffee beverage flavored with chocolate, typically a mix of espresso and steamed milk.",
+            "origin": "Yemen",
+            "longitude": 48.5164,
+            "latitude": 15.5527
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 186,
+        "fields": {
+            "text": "anise",
+            "type": "noun",
+            "definition": "A spice made from the seeds of the Pimpinella anisum plant, often used in baking and cooking.",
+            "origin": "Egypt",
+            "longitude": 31.28449673012101,
+            "latitude": 23.965337474749308
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 187,
+        "fields": {
+            "text": "molasses",
+            "type": "noun",
+            "definition": "A thick, dark syrup made from sugarcane or sugar beet juice, often used in baking and cooking.",
+            "origin": "Caribbean",
+            "longitude": -76.81348804482441,
+            "latitude": 18.774964328269817
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 188,
+        "fields": {
+            "text": "yucca",
+            "type": "noun",
+            "definition": "A plant native to the Americas, known for its starchy roots and sword-shaped leaves.",
+            "origin": "North America",
+            "longitude": -95.7129,
+            "latitude": 37.0902
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 189,
+        "fields": {
+            "text": "turkey",
+            "type": "noun",
+            "definition": "A large bird native to North America, known for its meat and popular during Thanksgiving and Christmas.",
+            "origin": "North America",
+            "longitude": -92.3789244441524,
+            "latitude": 38.872933157337926
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 190,
+        "fields": {
+            "text": "pecan",
+            "type": "noun",
+            "definition": "A type of nut from the hickory tree, often used in pies and desserts.",
+            "origin": "North America",
+            "longitude": -97.20852822001763,
+            "latitude": 35.74074822527221
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 191,
+        "fields": {
+            "text": "hominy",
+            "type": "noun",
+            "definition": "A food made from dried corn kernels that have been treated with an alkali, often used in soups and stews.",
+            "origin": "North America",
+            "longitude": -93.2702494407333,
+            "latitude": 39.172147626147016
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 192,
+        "fields": {
+            "text": "squash",
+            "type": "noun",
+            "definition": "A group of vegetables native to the Americas, known for their hard rinds and fleshy interiors.",
+            "origin": "North America",
+            "longitude": -95.56717020007474,
+            "latitude": 37.37186810866964
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 193,
+        "fields": {
+            "text": "tomato",
+            "type": "noun",
+            "definition": "A red fruit native to the Americas, often used in salads, sauces, and soups.",
+            "origin": "South America",
+            "longitude": -62.06278431127713,
+            "latitude": -14.766549070200362
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 194,
+        "fields": {
+            "text": "chili",
+            "type": "noun",
+            "definition": "A spicy dish made from chili peppers, meat, and tomatoes, originating in the Americas.",
+            "origin": "North America",
+            "longitude": -96.04115645127786,
+            "latitude": 35.36929836812338
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 195,
+        "fields": {
+            "text": "jaguar",
+            "type": "noun",
+            "definition": "A large wild cat native to the Americas, known for its powerful build and spotted coat.",
+            "origin": "South America",
+            "longitude": -61.265387512621786,
+            "latitude": -13.40461988927851
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 196,
+        "fields": {
+            "text": "mahogany",
+            "type": "noun",
+            "definition": "A type of tropical hardwood known for its deep red color and durability, used in furniture making.",
+            "origin": "Americas",
+            "longitude": -77.436,
+            "latitude": 18.2208
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 197,
+        "fields": {
+            "text": "corn",
+            "type": "noun",
+            "definition": "A cereal plant native to the Americas, known for its edible kernels that can be used in various dishes.",
+            "origin": "North America",
+            "longitude": -95.56985174529962,
+            "latitude": 35.417031399040646
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 198,
+        "fields": {
+            "text": "potato",
+            "type": "noun",
+            "definition": "A starchy tuber native to the Andes region, often used in cooking in various forms such as mashed, fried, or baked.",
+            "origin": "South America",
+            "longitude": -54.83304988055211,
+            "latitude": -12.558336328796386
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 199,
+        "fields": {
+            "text": "vanilla",
+            "type": "noun",
+            "definition": "A flavoring derived from orchids of the genus Vanilla, often used in cooking and baking.",
+            "origin": "Mexico",
+            "longitude": -105.24568809170371,
+            "latitude": 24.9709586363095
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 200,
+        "fields": {
+            "text": "peanut",
+            "type": "noun",
+            "definition": "A legume native to South America, often eaten as a snack or used in cooking.",
+            "origin": "South America",
+            "longitude": -61.230459438463996,
+            "latitude": -13.646512560671889
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 201,
+        "fields": {
+            "text": "chili pepper",
+            "type": "noun",
+            "definition": "A spicy fruit of plants from the genus Capsicum, used in cooking to add heat and flavor.",
+            "origin": "South America",
+            "longitude": -57.74939409740381,
+            "latitude": -15.24858452850138
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 202,
+        "fields": {
+            "text": "sweet potato",
+            "type": "noun",
+            "definition": "A starchy root vegetable native to tropical regions of the Americas, often used in cooking.",
+            "origin": "South America",
+            "longitude": -58.47888617406131,
+            "latitude": -17.266431876746413
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 203,
+        "fields": {
+            "text": "hickory",
+            "type": "noun",
+            "definition": "A type of tree native to North America, known for its hard wood and edible nuts.",
+            "origin": "North America",
+            "longitude": -95.38039268499368,
+            "latitude": 37.339917017401696
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 204,
+        "fields": {
+            "text": "guava",
+            "type": "noun",
+            "definition": "A tropical fruit native to the Americas, known for its sweet, aromatic flesh and tough outer skin.",
+            "origin": "South America",
+            "longitude": -60.06503669084671,
+            "latitude": -12.262830787709232
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 205,
+        "fields": {
+            "text": "mesquite",
+            "type": "noun",
+            "definition": "A shrub or small tree native to arid regions of the Americas, often used for smoking meats.",
+            "origin": "North America",
+            "longitude": -95.36810411063475,
+            "latitude": 40.16446784814658
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 206,
+        "fields": {
+            "text": "cashew",
+            "type": "noun",
+            "definition": "A nut native to Brazil, often eaten as a snack or used in cooking.",
+            "origin": "South America",
+            "longitude": -54.5842312022512,
+            "latitude": -14.665926753588217
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 207,
+        "fields": {
+            "text": "brazil nut",
+            "type": "noun",
+            "definition": "A large seed from the Brazil nut tree, often eaten as a snack or used in cooking.",
+            "origin": "South America",
+            "longitude": -59.848683607364855,
+            "latitude": -12.340075711314904
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 208,
+        "fields": {
+            "text": "llama",
+            "type": "noun",
+            "definition": "A domesticated South American mammal known for its wool and used as a pack animal.",
+            "origin": "South America",
+            "longitude": -60.76678950796186,
+            "latitude": -12.255025633192552
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 209,
+        "fields": {
+            "text": "cacao",
+            "type": "noun",
+            "definition": "A tropical tree native to the Americas, known for its seeds used to make chocolate.",
+            "origin": "South America",
+            "longitude": -61.182492257482195,
+            "latitude": -15.828000623210837
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 210,
+        "fields": {
+            "text": "jicama",
+            "type": "noun",
+            "definition": "A crunchy, starchy root vegetable native to the Americas, often eaten raw or used in salads.",
+            "origin": "Mexico",
+            "longitude": -100.42863552259419,
+            "latitude": 23.137145154138473
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 211,
+        "fields": {
+            "text": "epazote",
+            "type": "noun",
+            "definition": "A herb native to Mexico and Central America, often used in cooking beans and other dishes for its strong flavor.",
+            "origin": "Mexico",
+            "longitude": -102.4690267222622,
+            "latitude": 27.41692997568306
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 212,
+        "fields": {
+            "text": "tequila",
+            "type": "noun",
+            "definition": "A distilled alcoholic beverage made from the blue agave plant, primarily in the region surrounding the city of Tequila in Mexico.",
+            "origin": "Mexico",
+            "longitude": -99.00008387097296,
+            "latitude": 22.046829554836627
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 213,
+        "fields": {
+            "text": "mescal",
+            "type": "noun",
+            "definition": "A distilled alcoholic beverage made from any type of agave plant, known for its smoky flavor.",
+            "origin": "Mexico",
+            "longitude": -100.52989003117099,
+            "latitude": 25.545762094684555
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 214,
+        "fields": {
+            "text": "churro",
+            "type": "noun",
+            "definition": "A sweet, fried-dough pastry often coated in sugar and cinnamon, popular in Spanish and Mexican cuisine.",
+            "origin": "Spain",
+            "longitude": -1.5874622984586142,
+            "latitude": 37.024589438645066
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 215,
+        "fields": {
+            "text": "paella",
+            "type": "noun",
+            "definition": "A traditional Spanish rice dish often cooked with seafood, chicken, and vegetables.",
+            "origin": "Spain",
+            "longitude": -2.8787842507862065,
+            "latitude": 40.834572617149
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 216,
+        "fields": {
+            "text": "gazpacho",
+            "type": "noun",
+            "definition": "A cold Spanish soup made from blended vegetables such as tomatoes, cucumbers, and peppers.",
+            "origin": "Spain",
+            "longitude": -2.4469163149232482,
+            "latitude": 40.434064464121455
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 217,
+        "fields": {
+            "text": "sangria",
+            "type": "noun",
+            "definition": "A traditional Spanish drink made from red wine, fruit, and other flavorings such as brandy or soda.",
+            "origin": "Spain",
+            "longitude": -2.4732415527604794,
+            "latitude": 36.65366107464118
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 218,
+        "fields": {
+            "text": "poncho",
+            "type": "noun",
+            "definition": "A traditional garment from the Andes, often made from wool and worn for warmth.",
+            "origin": "South America",
+            "longitude": -57.620785438837,
+            "latitude": -12.990362632198075
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 219,
+        "fields": {
+            "text": "patio",
+            "type": "noun",
+            "definition": "An outdoor area typically paved and adjacent to a house, often used for leisure and socializing.",
+            "origin": "Spain",
+            "longitude": -5.881856425331129,
+            "latitude": 38.78255087320087
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 220,
+        "fields": {
+            "text": "matador",
+            "type": "noun",
+            "definition": "A bullfighter who performs in a traditional Spanish bullfight.",
+            "origin": "Spain",
+            "longitude": -4.4522978558931,
+            "latitude": 40.13602659462463
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 221,
+        "fields": {
+            "text": "flamenco",
+            "type": "noun",
+            "definition": "A traditional Spanish dance and music style known for its passionate, rhythmic movements and guitar music.",
+            "origin": "Spain",
+            "longitude": -3.623556668784619,
+            "latitude": 40.54004814243893
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 222,
+        "fields": {
+            "text": "rodeo",
+            "type": "noun",
+            "definition": "A competitive sport involving events such as bull riding, roping, and barrel racing, originating in Spain and Mexico.",
+            "origin": "Spain",
+            "longitude": -3.4827579955784955,
+            "latitude": 39.4912472161528
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 223,
+        "fields": {
+            "text": "mustang",
+            "type": "noun",
+            "definition": "A free-roaming horse of the American West, descended from horses brought by the Spanish.",
+            "origin": "Spain",
+            "longitude": -6.307802861626052,
+            "latitude": 38.49834469612361
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 224,
+        "fields": {
+            "text": "calypso",
+            "type": "noun",
+            "definition": "A style of Afro-Caribbean music and dance known for its rhythm and storytelling lyrics.",
+            "origin": "Caribbean",
+            "longitude": -74.91093481526492,
+            "latitude": 18.199840963970264
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 225,
+        "fields": {
+            "text": "rumba",
+            "type": "noun",
+            "definition": "A style of Cuban music and dance known for its fast tempo and lively rhythm.",
+            "origin": "Cuba",
+            "longitude": -77.7812,
+            "latitude": 21.5218
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 226,
+        "fields": {
+            "text": "reggae",
+            "type": "noun",
+            "definition": "A style of Jamaican music known for its strong rhythm and socially conscious lyrics.",
+            "origin": "Jamaica",
+            "longitude": -77.2975,
+            "latitude": 18.1096
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 227,
+        "fields": {
+            "text": "soca",
+            "type": "noun",
+            "definition": "A style of Caribbean music known for its fast tempo and energetic beats, often played during festivals.",
+            "origin": "Caribbean",
+            "longitude": -78.11907415508425,
+            "latitude": 18.49800929309087
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 228,
+        "fields": {
+            "text": "caipirinha",
+            "type": "noun",
+            "definition": "A Brazilian cocktail made with cachaa, sugar, and lime, known for its refreshing taste.",
+            "origin": "Brazil",
+            "longitude": -52.04647084102366,
+            "latitude": -15.281507325269715
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 229,
+        "fields": {
+            "text": "piranha",
+            "type": "noun",
+            "definition": "A small, aggressive freshwater fish native to South American rivers, known for its sharp teeth.",
+            "origin": "South America",
+            "longitude": -60.19777107996444,
+            "latitude": -13.689058500301217
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 230,
+        "fields": {
+            "text": "macaw",
+            "type": "noun",
+            "definition": "A colorful, long-tailed parrot native to Central and South America, known for its loud call and vibrant feathers.",
+            "origin": "South America",
+            "longitude": -56.40714274812496,
+            "latitude": -14.304450450381324
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 231,
+        "fields": {
+            "text": "tapir",
+            "type": "noun",
+            "definition": "A large, herbivorous mammal found in tropical regions of the Americas, known for its distinctive snout.",
+            "origin": "South America",
+            "longitude": -58.66045254455814,
+            "latitude": -12.821403403936843
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 232,
+        "fields": {
+            "text": "alpaca",
+            "type": "noun",
+            "definition": "A domesticated South American mammal known for its soft wool, often used in textiles.",
+            "origin": "South America",
+            "longitude": -60.348340464164394,
+            "latitude": -12.707463342190948
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 233,
+        "fields": {
+            "text": "quinine",
+            "type": "noun",
+            "definition": "A bitter compound derived from the bark of the cinchona tree, used as a treatment for malaria and as a flavoring in tonic water.",
+            "origin": "Peru",
+            "longitude": -75.0152,
+            "latitude": -9.189967
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 234,
+        "fields": {
+            "text": "guano",
+            "type": "noun",
+            "definition": "A natural fertilizer made from the excrement of seabirds and bats, found in coastal regions of Peru and other areas.",
+            "origin": "Peru",
+            "longitude": -74.22294531107168,
+            "latitude": -8.11775771674766
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 235,
+        "fields": {
+            "text": "capoeira",
+            "type": "noun",
+            "definition": "A Brazilian martial art that combines elements of dance, acrobatics, and music.",
+            "origin": "Brazil",
+            "longitude": -53.8161181774259,
+            "latitude": -13.240907724240234
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 236,
+        "fields": {
+            "text": "bossa nova",
+            "type": "noun",
+            "definition": "A Brazilian music genre that combines samba and jazz influences, known for its smooth and laid-back rhythm.",
+            "origin": "Brazil",
+            "longitude": -50.78378465434781,
+            "latitude": -12.60939777585368
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 237,
+        "fields": {
+            "text": "tango",
+            "type": "noun",
+            "definition": "A partner dance and music genre that originated in Buenos Aires, Argentina, known for its passionate and dramatic movements.",
+            "origin": "Argentina",
+            "longitude": -63.6167,
+            "latitude": -38.4161
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 238,
+        "fields": {
+            "text": "cumbia",
+            "type": "noun",
+            "definition": "A Latin American dance and music style that originated in Colombia, known for its infectious rhythm and upbeat tempo.",
+            "origin": "Colombia",
+            "longitude": -74.2973,
+            "latitude": 4.5709
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 239,
+        "fields": {
+            "text": "burrito",
+            "type": "noun",
+            "definition": "A Mexican dish consisting of a tortilla wrapped around a filling such as meat, rice, beans, and vegetables.",
+            "origin": "Mexico",
+            "longitude": -106.00829336716589,
+            "latitude": 25.080511101360962
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 240,
+        "fields": {
+            "text": "cocoa",
+            "type": "noun",
+            "definition": "A tropical plant native to Central and South America, whose seeds are used to make chocolate and cocoa powder.",
+            "origin": "Central America",
+            "longitude": -85.2072,
+            "latitude": 9.7489
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 241,
+        "fields": {
+            "text": "chia",
+            "type": "noun",
+            "definition": "A species of flowering plant in the mint family, known for its seeds which are rich in nutrients.",
+            "origin": "Mesoamerica",
+            "longitude": -99.1332,
+            "latitude": 19.4326
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 242,
+        "fields": {
+            "text": "papaya",
+            "type": "noun",
+            "definition": "A tropical fruit with orange flesh and black seeds, native to the Americas and known for its sweet flavor.",
+            "origin": "Mesoamerica",
+            "longitude": -99.32105885958686,
+            "latitude": 20.946266546624187
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 243,
+        "fields": {
+            "text": "pineapple",
+            "type": "noun",
+            "definition": "A tropical fruit with a sweet and tangy flavor, often used in cooking and desserts.",
+            "origin": "South America",
+            "longitude": -56.42284585791361,
+            "latitude": -13.14990073140221
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 244,
+        "fields": {
+            "text": "cassava",
+            "type": "noun",
+            "definition": "A starchy root vegetable native to the Americas, often used in cooking and as a source of tapioca.",
+            "origin": "South America",
+            "longitude": -56.38400789229895,
+            "latitude": -11.219750413257769
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 245,
+        "fields": {
+            "text": "couscous",
+            "type": "noun",
+            "definition": "A North African dish made from small steamed balls of semolina, often served with stew or vegetables.",
+            "origin": "North Africa",
+            "longitude": 9.4491,
+            "latitude": 33.8886
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 246,
+        "fields": {
+            "text": "mint",
+            "type": "noun",
+            "definition": "An herb known for its refreshing and aromatic leaves, often used in cooking and beverages.",
+            "origin": "Europe",
+            "longitude": 11.0251,
+            "latitude": 51.1657
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 247,
+        "fields": {
+            "text": "almond",
+            "type": "noun",
+            "definition": "A type of nut that comes from the almond tree, often used in cooking and baking.",
+            "origin": "Middle East",
+            "longitude": 46.99930620869901,
+            "latitude": 21.013723612099753
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 248,
+        "fields": {
+            "text": "rice",
+            "type": "noun",
+            "definition": "A staple food crop grown worldwide, especially in Asia, used in a variety of culinary dishes.",
+            "origin": "China",
+            "longitude": 102.5360010891296,
+            "latitude": 36.063542763284175
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 249,
+        "fields": {
+            "text": "silk",
+            "type": "noun",
+            "definition": "A fine, lustrous fiber produced by silkworms, often used to make luxurious textiles.",
+            "origin": "China",
+            "longitude": 102.13647618390485,
+            "latitude": 39.0303339422444
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 250,
+        "fields": {
+            "text": "tea",
+            "type": "noun",
+            "definition": "A hot beverage made from the leaves of the tea plant, often consumed worldwide.",
+            "origin": "China",
+            "longitude": 105.20346115950453,
+            "latitude": 35.107506860338624
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 251,
+        "fields": {
+            "text": "soy sauce",
+            "type": "noun",
+            "definition": "A condiment made from fermented soybeans and wheat, commonly used in East Asian cooking.",
+            "origin": "China",
+            "longitude": 102.35777908081178,
+            "latitude": 34.80668505275004
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 252,
+        "fields": {
+            "text": "peking",
+            "type": "noun",
+            "definition": "A method of preparing duck by roasting it, originating from Beijing, China.",
+            "origin": "China",
+            "longitude": 116.4074,
+            "latitude": 39.9042
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 253,
+        "fields": {
+            "text": "hoisin",
+            "type": "noun",
+            "definition": "A thick, sweet, and salty sauce commonly used in Chinese cuisine for flavoring dishes.",
+            "origin": "China",
+            "longitude": 104.07166150664729,
+            "latitude": 38.074280363020684
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 254,
+        "fields": {
+            "text": "tapioca",
+            "type": "noun",
+            "definition": "A starchy substance extracted from cassava roots, often used in cooking and desserts.",
+            "origin": "South America",
+            "longitude": -58.205364603039875,
+            "latitude": -15.394939270582356
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 255,
+        "fields": {
+            "text": "taro",
+            "type": "noun",
+            "definition": "A tropical root vegetable often used in cooking for its starchy texture and flavor.",
+            "origin": "Southeast Asia",
+            "longitude": 105.84789356640078,
+            "latitude": 4.380148687916851
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 256,
+        "fields": {
+            "text": "tikka masala",
+            "type": "noun",
+            "definition": "A popular Indian dish consisting of marinated chicken or vegetables cooked in a spiced tomato sauce.",
+            "origin": "India",
+            "longitude": 76.88031316229207,
+            "latitude": 21.350584704795285
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 257,
+        "fields": {
+            "text": "garlic",
+            "type": "noun",
+            "definition": "A plant from the onion family, known for its strong flavor and aroma, used in cooking and medicine.",
+            "origin": "Central Asia",
+            "longitude": 76.89243042299692,
+            "latitude": 21.435872801458267
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 258,
+        "fields": {
+            "text": "basmati",
+            "type": "noun",
+            "definition": "A long-grain rice variety known for its aromatic fragrance and often used in Indian cuisine.",
+            "origin": "India",
+            "longitude": 81.25931586954344,
+            "latitude": 18.876126423443996
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 259,
+        "fields": {
+            "text": "papadum",
+            "type": "noun",
+            "definition": "A thin, crispy Indian flatbread made from lentil flour, often served as a snack or side dish.",
+            "origin": "India",
+            "longitude": 75.91615112315343,
+            "latitude": 22.232703303479923
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 260,
+        "fields": {
+            "text": "shish kebab",
+            "type": "noun",
+            "definition": "A dish of skewered and grilled meat, often served with vegetables and rice, originating from the Middle East.",
+            "origin": "Turkey",
+            "longitude": 36.53789312280059,
+            "latitude": 39.31910443787615
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 261,
+        "fields": {
+            "text": "tagine",
+            "type": "noun",
+            "definition": "A traditional North African stew cooked in a special clay pot with a conical lid.",
+            "origin": "Morocco",
+            "longitude": -7.0926,
+            "latitude": 31.7917
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 262,
+        "fields": {
+            "text": "mint tea",
+            "type": "noun",
+            "definition": "A traditional North African beverage made with green tea and fresh mint leaves.",
+            "origin": "Morocco",
+            "longitude": -7.77338614827605,
+            "latitude": 32.52756429315533
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 263,
+        "fields": {
+            "text": "manchego",
+            "type": "noun",
+            "definition": "A Spanish cheese made from sheep's milk, known for its nutty flavor and crumbly texture.",
+            "origin": "Spain",
+            "longitude": -0.20401492786247433,
+            "latitude": 40.22664586360461
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 264,
+        "fields": {
+            "text": "bullfighter",
+            "type": "noun",
+            "definition": "A person who performs in a traditional Spanish bullfight, known for their skill and bravery.",
+            "origin": "Spain",
+            "longitude": -3.846696489221978,
+            "latitude": 41.13183347005521
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 265,
+        "fields": {
+            "text": "torero",
+            "type": "noun",
+            "definition": "A bullfighter who performs in a traditional Spanish bullfight, known for their skill and bravery.",
+            "origin": "Spain",
+            "longitude": -5.528844916408104,
+            "latitude": 42.476890890590255
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 266,
+        "fields": {
+            "text": "cognac",
+            "type": "noun",
+            "definition": "A type of brandy made in the Cognac region of France, known for its rich flavor and aroma.",
+            "origin": "France",
+            "longitude": 1.40399632312188,
+            "latitude": 46.25708654059244
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 267,
+        "fields": {
+            "text": "champagne",
+            "type": "noun",
+            "definition": "A sparkling wine made in the Champagne region of France, known for its effervescence and elegance.",
+            "origin": "France",
+            "longitude": 1.8814718606812817,
+            "latitude": 45.97248902313107
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 268,
+        "fields": {
+            "text": "brie",
+            "type": "noun",
+            "definition": "A soft, creamy cheese from France, known for its mild flavor and bloomy rind.",
+            "origin": "France",
+            "longitude": 0.10656042316297532,
+            "latitude": 46.74280391612774
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 269,
+        "fields": {
+            "text": "quiche",
+            "type": "noun",
+            "definition": "A French savory pie made with a filling of eggs, cream, and various ingredients such as cheese, meat, or vegetables.",
+            "origin": "France",
+            "longitude": 3.7581213142231484,
+            "latitude": 43.526040754544674
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 270,
+        "fields": {
+            "text": "baguette",
+            "type": "noun",
+            "definition": "A long, thin loaf of French bread known for its crispy crust and soft interior.",
+            "origin": "France",
+            "longitude": 4.412492789877096,
+            "latitude": 45.07221757647736
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 271,
+        "fields": {
+            "text": "roux",
+            "type": "noun",
+            "definition": "A mixture of fat (such as butter) and flour used as a base for thickening sauces in French cooking.",
+            "origin": "France",
+            "longitude": 1.5455802463711477,
+            "latitude": 46.885253370791354
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 272,
+        "fields": {
+            "text": "escargot",
+            "type": "noun",
+            "definition": "A dish made from cooked land snails, often served with garlic butter and herbs.",
+            "origin": "France",
+            "longitude": 1.6104845847896891,
+            "latitude": 46.306919748100974
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 273,
+        "fields": {
+            "text": "mousse",
+            "type": "noun",
+            "definition": "A light, airy dessert made with whipped cream and flavored with ingredients such as chocolate or fruit.",
+            "origin": "France",
+            "longitude": 5.691433123168167,
+            "latitude": 44.92231327727197
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 274,
+        "fields": {
+            "text": "coq au vin",
+            "type": "noun",
+            "definition": "A classic French dish made from chicken cooked in red wine with mushrooms and onions.",
+            "origin": "France",
+            "longitude": 3.429593420997329,
+            "latitude": 46.3422922682186
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 275,
+        "fields": {
+            "text": "ratatouille",
+            "type": "noun",
+            "definition": "A French vegetable stew made with eggplant, zucchini, tomatoes, peppers, and onions.",
+            "origin": "France",
+            "longitude": 0.5856463876717484,
+            "latitude": 48.899787743578734
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 276,
+        "fields": {
+            "text": "tart",
+            "type": "noun",
+            "definition": "A baked dish with a pastry base, often filled with fruit, custard, or savory ingredients.",
+            "origin": "France",
+            "longitude": 2.0126574593174222,
+            "latitude": 48.28158231804055
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 277,
+        "fields": {
+            "text": "madeleine",
+            "type": "noun",
+            "definition": "A small, shell-shaped French cake known for its light and delicate texture.",
+            "origin": "France",
+            "longitude": -0.5880209814785151,
+            "latitude": 45.82684109243703
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 278,
+        "fields": {
+            "text": "bouillabaisse",
+            "type": "noun",
+            "definition": "A traditional French fish stew made with various types of seafood, vegetables, and spices.",
+            "origin": "France",
+            "longitude": 2.6926603319037214,
+            "latitude": 46.41958287548578
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 279,
+        "fields": {
+            "text": "croque monsieur",
+            "type": "noun",
+            "definition": "A French grilled cheese sandwich made with ham and bechamel sauce.",
+            "origin": "France",
+            "longitude": 2.097134043115061,
+            "latitude": 45.820213970411245
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 280,
+        "fields": {
+            "text": "fondue",
+            "type": "noun",
+            "definition": "A dish in which food is dipped into melted cheese or chocolate, often served in a communal pot.",
+            "origin": "Switzerland",
+            "longitude": 8.2275,
+            "latitude": 46.8182
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 281,
+        "fields": {
+            "text": "raclette",
+            "type": "noun",
+            "definition": "A Swiss dish made from melting cheese and serving it over boiled potatoes and other accompaniments.",
+            "origin": "Switzerland",
+            "longitude": 6.824537319694785,
+            "latitude": 44.221605257591825
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 282,
+        "fields": {
+            "text": "korma",
+            "type": "noun",
+            "definition": "A mild Indian curry dish made with yogurt or cream, often cooked with meat, vegetables, or nuts.",
+            "origin": "India",
+            "longitude": 76.52763446829239,
+            "latitude": 23.534325444989367
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 283,
+        "fields": {
+            "text": "rogan josh",
+            "type": "noun",
+            "definition": "A spicy Indian curry dish made with lamb, tomatoes, and a blend of spices.",
+            "origin": "India",
+            "longitude": 79.9246263814456,
+            "latitude": 21.117212711642505
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 284,
+        "fields": {
+            "text": "masala",
+            "type": "noun",
+            "definition": "A blend of ground spices commonly used in Indian cuisine to flavor various dishes.",
+            "origin": "India",
+            "longitude": 78.57393410782136,
+            "latitude": 20.539097605148022
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 285,
+        "fields": {
+            "text": "chicken tikka",
+            "type": "noun",
+            "definition": "A popular Indian dish made from chicken pieces marinated in yogurt and spices, then grilled or baked.",
+            "origin": "India",
+            "longitude": 78.9617824965312,
+            "latitude": 20.64247693257137
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 286,
+        "fields": {
+            "text": "bhaji",
+            "type": "noun",
+            "definition": "A deep-fried Indian snack made from spiced vegetables or lentils, often served with chutney.",
+            "origin": "India",
+            "longitude": 79.66560978294473,
+            "latitude": 19.91639520278823
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 287,
+        "fields": {
+            "text": "dosai",
+            "type": "noun",
+            "definition": "A type of Indian pancake made from fermented rice and lentil batter, often served with chutney and sambar.",
+            "origin": "India",
+            "longitude": 80.37699338784869,
+            "latitude": 20.618480763247025
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 288,
+        "fields": {
+            "text": "goulash",
+            "type": "noun",
+            "definition": "A hearty stew made with meat and vegetables, often seasoned with paprika, originating in Hungary.",
+            "origin": "Hungary",
+            "longitude": 19.5033,
+            "latitude": 47.1625
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 289,
+        "fields": {
+            "text": "stroganoff",
+            "type": "noun",
+            "definition": "A Russian dish made with sauteed beef in a creamy sauce, often served with rice or noodles.",
+            "origin": "Russia",
+            "longitude": 105.3188,
+            "latitude": 61.524
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 290,
+        "fields": {
+            "text": "borscht",
+            "type": "noun",
+            "definition": "A traditional Eastern European soup made with beets, often served hot or cold.",
+            "origin": "Russia",
+            "longitude": 104.80424959946338,
+            "latitude": 59.63420299965254
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 291,
+        "fields": {
+            "text": "blini",
+            "type": "noun",
+            "definition": "A type of Russian pancake made from buckwheat flour, often served with sour cream or caviar.",
+            "origin": "Russia",
+            "longitude": 102.43761192709991,
+            "latitude": 62.88013495938367
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 292,
+        "fields": {
+            "text": "vodka",
+            "type": "noun",
+            "definition": "A clear, distilled alcoholic beverage made from grains or potatoes, often consumed in Eastern Europe.",
+            "origin": "Russia",
+            "longitude": 107.04994163299365,
+            "latitude": 62.52505957402353
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 293,
+        "fields": {
+            "text": "sauerkraut",
+            "type": "noun",
+            "definition": "Fermented cabbage commonly found in German cuisine, known for its tangy flavor and digestive benefits.",
+            "origin": "Germany",
+            "longitude": 10.4515,
+            "latitude": 51.1657
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 294,
+        "fields": {
+            "text": "schnitzel",
+            "type": "noun",
+            "definition": "A dish made from breaded and fried meat, often pork or veal, popular in German and Austrian cuisine.",
+            "origin": "Germany",
+            "longitude": 10.649736620147106,
+            "latitude": 49.132637179431306
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 295,
+        "fields": {
+            "text": "pretzel",
+            "type": "noun",
+            "definition": "A type of baked bread product, often twisted into a knot shape, popular in German and Austrian cuisine.",
+            "origin": "Germany",
+            "longitude": 10.94407435954339,
+            "latitude": 50.78257309707452
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 296,
+        "fields": {
+            "text": "bratwurst",
+            "type": "noun",
+            "definition": "A type of German sausage made from pork, beef, or veal, often seasoned with spices and herbs.",
+            "origin": "Germany",
+            "longitude": 12.093402170418644,
+            "latitude": 49.31769899036351
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 297,
+        "fields": {
+            "text": "beer",
+            "type": "noun",
+            "definition": "An alcoholic beverage made from fermented grains such as barley, often flavored with hops.",
+            "origin": "Ancient Mesopotamia",
+            "longitude": 43.6793,
+            "latitude": 33.2232
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 298,
+        "fields": {
+            "text": "butter",
+            "type": "noun",
+            "definition": "A dairy product made from churning cream, often used in cooking and baking for its rich flavor.",
+            "origin": "Ancient Mesopotamia",
+            "longitude": 44.020194614902124,
+            "latitude": 33.334879985021395
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 299,
+        "fields": {
+            "text": "kefir",
+            "type": "noun",
+            "definition": "A fermented dairy drink made from kefir grains, known for its probiotic properties.",
+            "origin": "Caucasus Mountains",
+            "longitude": 40.08856216815309,
+            "latitude": 34.65030803580327
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 300,
+        "fields": {
+            "text": "kefalotyri",
+            "type": "noun",
+            "definition": "A Greek cheese made from sheep's or goat's milk, known for its salty flavor and firm texture.",
+            "origin": "Greece",
+            "longitude": 19.059100899322214,
+            "latitude": 39.31629859679155
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 301,
+        "fields": {
+            "text": "halloumi",
+            "type": "noun",
+            "definition": "A cheese made from sheep's or goat's milk, known for its high melting point and ability to be grilled or fried.",
+            "origin": "Cyprus",
+            "longitude": 33.4299,
+            "latitude": 35.1264
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 302,
+        "fields": {
+            "text": "pita",
+            "type": "noun",
+            "definition": "A round, pocket bread commonly found in Middle Eastern cuisine, often used for sandwiches or as a side dish.",
+            "origin": "Middle East",
+            "longitude": 41.90051483853338,
+            "latitude": 19.670492956014865
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 303,
+        "fields": {
+            "text": "za'atar",
+            "type": "noun",
+            "definition": "A Middle Eastern spice blend made from dried herbs, sesame seeds, sumac, and salt.",
+            "origin": "Middle East",
+            "longitude": 42.1033215458689,
+            "latitude": 19.014739590243035
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 304,
+        "fields": {
+            "text": "sumac",
+            "type": "noun",
+            "definition": "A spice made from the dried and ground berries of the sumac plant, known for its tangy flavor.",
+            "origin": "Middle East",
+            "longitude": 44.121163434883414,
+            "latitude": 22.261369239488264
+        }
+    },
+    {
+        "model": "textlayer.Vocab",
+        "pk": 305,
+        "fields": {
+            "text": "dolma",
+            "type": "noun",
+            "definition": "A dish made from grape leaves stuffed with rice and other ingredients, common in Middle Eastern cuisine.",
+            "origin": "Middle East",
+            "longitude": 48.530963560824986,
+            "latitude": 21.40701098996945
+        }
+    }
+]
