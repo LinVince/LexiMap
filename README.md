@@ -1,7 +1,7 @@
 # LexiMap - Origin
 ![Demo](https://github.com/LinVince/LexiMap/assets/38820721/a3e50e33-78c4-41f9-8014-77603c1435b6)
 
-LexiMap is the integration of Generative AI and the navigation system applied in English words that originate from different corners of the world. The words that originate from different continents are assigned with respective coordinates. You can interact with these words on the map, sending prompts to OpenAI for ask for other information about the word.
+LexiMap is the integration of Generative AI and the navigation system applied in English words that originate from different corners of the world. The words that originate from different continents are assigned with respective coordinates. You can interact with these words on the map, sending prompts to OpenAI to ask for other information about the word.
 In the Django admin system, you can 
 - Add prompts
 - Add words
