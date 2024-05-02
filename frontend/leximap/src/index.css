@@ -1,12 +1,42 @@
 :root {
+   /* Define CSS variables for color and background color */
+  --button-color-light: #242424;
+  --button-color-dark: #a5a5a5;
+  --button-color: var(--button-color-dark);
+
+  --button-bg-color-light: #ffffff;
+  --button-bg-color-dark: #242424;
+  --button-bg-color:var(--button-bg-color-dark);
+
+  --button-hover-bg-color-light: #e4e4e4;
+  --button-hover-bg-color-dark: #333;  
+  --button-hover-bg-color: var(--button-hover-bg-color-dark);
+
+  --scrollbar-bg-color-light: #d3d3d3;
+  --scrollbar-bg-color-dark: #404040;
+  --scrollbar-bg-color: var(--scrollbar-bg-color-dark);
+
+  --scrollbar-thumb-color-light: #c3c3c3;
+  --scrollbar-thumb-color-dark: #676767;
+  --scrollbar-thumb-color: var(--scrollbar-bg-color-dark);
+
+  --root-color-light: #242424;
+  --root-color-dark: #fff;
+  --root-color: var(--root-color-dark);
+
+  --root-bg-color-light: #fff;
+  --root-bg-color-dark: #242424;
+  --root-bg-color: var(--root-bg-color-dark);
+
+
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
+  color: var(--root-color) !important;
+  background-color: var(--root-bg-color) !important;
+  
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -23,13 +53,27 @@
   height: 99% !important;
 }
 
-/* Set the button style */
- .MuiButton-root {
-  color: #a5a5a5 !important;
-  border-color: #a5a5a5 !important;
+/* Set the box style */
+::-webkit-scrollbar {
+  background-color: var(--scrollbar-bg-color);
 }
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--scrollbar-thumb-color);
+}
+
+
+
+/* Set the button style */
+.MuiButton-root {
+  color: var(--button-color) !important ; 
+  border-color: #a5a5a5 !important;
+  
+}
+
 .MuiButton-root:hover {
-  background-color: #555 !important;
+  background-color: var(--button-hover-bg-color) !important;
+  border-color: #a5a5a5 !important;
 }
 
 a {
@@ -54,7 +98,7 @@ h1 {
   line-height: 1.1;
 }
 
-button {
+/*button {
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
@@ -72,9 +116,9 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
+*/
 
 /* Zoom Control */
-/* Zoom controls */
 .zoom-controls {
   position: absolute;
   bottom: 20px;
@@ -82,22 +126,22 @@ button:focus-visible {
   display: vertical;
   z-index: 999;
 }
-.zoom-controls button {
+.zoom-controls-button {
   width: 50px;
   height: 50px;
   margin-bottom: 5px;
   cursor: pointer;
-  background-color: #000000;
-  color: #c7c7c7;
+  background-color: var(--button-bg-color);
+  color: var(--button-color);
   font-size: 20px;
-  border: 2px solid #666;
+  border: 0px;
   border-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-@media (prefers-color-scheme: light) {
+/*@media (prefers-color-scheme: light) {
   :root {
     color: #213547;
     background-color: #ffffff;
@@ -109,3 +153,4 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+*/

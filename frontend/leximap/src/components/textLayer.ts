@@ -6,7 +6,7 @@ const DATA_URL = "http://localhost:8000/textlayer/api/vocab";
 const fontSize = 32;
 const noOverlap = true;
 
-export function createTextLayer(changeViewState: any, viewState: any, handleHoverState: any) {
+export function createTextLayer(changeViewState: any, viewState: any, handleHoverState: any, darkMode: boolean) {
     const scale = 2 ** viewState.zoom;
     const sizeMaxPixels = (scale / 3) * fontSize;
     const sizeMinPixels = Math.min(scale / 1000, 0.5) * fontSize;
@@ -22,7 +22,7 @@ export function createTextLayer(changeViewState: any, viewState: any, handleHove
         fontWeight: "600",
         getPosition: (d) => [d.longitude, d.latitude],
         getText: (d) => d.text,
-        getColor: [255, 255, 255],
+        getColor: darkMode? [255, 255, 255] : [0, 0, 0],
         getSize: 16,
         sizeMaxPixels,
         sizeMinPixels,

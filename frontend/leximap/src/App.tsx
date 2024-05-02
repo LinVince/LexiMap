@@ -2,11 +2,16 @@ import { DeckGL } from "@deck.gl/react";
 import { useState } from "react";
 import { MapView } from "@deck.gl/core";
 import { createTextLayer } from "./components/textLayer";
-import { INITIAL_VIEW_STATE, MAP_STYLE } from "./constants/view";
+import {
+  INITIAL_VIEW_STATE,
+  MAP_STYLE_DARK,
+  MAP_STYLE_LIGHT,
+} from "./constants/view";
 import { Map } from "react-map-gl/maplibre";
 import MessageBox from "./components/messageBox";
 import Drawer from "./components/drawer";
 import ZoomControls from "./components/zoomControl";
+import ColorModeSwitch from "./components/colorSwitch";
 
 function App() {
   const [viewState, setViewState] = useState(INITIAL_VIEW_STATE);
@@ -14,6 +19,7 @@ function App() {
   const [wordState, setWordState] = useState<string>("");
   const [messageBoxDisplayState, setMessageBoxDisplay] =
     useState<string>("none");
+  const [darkMode, setDarkMode] = useState(true);
 
   // Click event of the map text label
   const handleClickEvent = (obj: any) => {
@@ -63,7 +69,8 @@ function App() {
   const textLayer = createTextLayer(
     handleClickEvent,
     viewState,
-    handleHoverState
+    handleHoverState,
+    darkMode
   );
 
   // Set the zoom handler
@@ -93,7 +100,6 @@ function App() {
 
   return (
     <>
-      <ZoomControls onZoomIn={handleZoomIn} onZoomOut={handleZoomOut} />
       <DeckGL
         views={new MapView({ repeat: false })}
         layers={[textLayer]}
@@ -102,11 +108,17 @@ function App() {
         controller={{ touchRotate: true, dragRotate: true }}
         getCursor={({ isHovering }) => (isHovering ? "pointer" : "default")}
       >
-        <Map reuseMaps mapStyle={MAP_STYLE} />
+        <Map reuseMaps mapStyle={darkMode ? MAP_STYLE_DARK : MAP_STYLE_LIGHT} />
       </DeckGL>
+      <ColorModeSwitch darkMode={darkMode} setDarkMode={setDarkMode} />
       <ZoomControls onZoomIn={handleZoomIn} onZoomOut={handleZoomOut} />
-      <MessageBox message={messageState} display={messageBoxDisplayState} />
-      <Drawer wordState={wordState} />
+      <MessageBox
+        dark={darkMode}
+        message={messageState}
+        display={messageBoxDisplayState}
+      />
+
+      <Drawer dark={darkMode} wordState={wordState} />
     </>
   );
 }

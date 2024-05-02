@@ -16,10 +16,10 @@ const ZoomControls = ({ onZoomIn, onZoomOut }: ZoomControlsType) => {
 
   return (
     <div className="zoom-controls">
-      <button className="zoom-button" onClick={handleZoomIn}>
+      <button className="zoom-controls-button" onClick={handleZoomIn}>
         <ZoomInIcon fontSize="large" />
       </button>
-      <button className="zoom-button" onClick={handleZoomOut}>
+      <button className="zoom-controls-button" onClick={handleZoomOut}>
         <ZoomOutIcon fontSize="large" />
       </button>
     </div>

@@ -10,13 +10,19 @@ import ResizeButton from "./resizeButton";
 // Fetch prompt data from the backend
 const DATA_URL = "http://localhost:8000/textlayer/api/prompt";
 
-const Drawer = ({ wordState }: any) => {
+const Drawer = ({ wordState, dark }: any) => {
   // Set prompt and response state
   const [openaiResponse, setResponse] = useState<any>(null);
 
   // Fetch prompt options through API
   const prompts: Array<{ text: string }> | null = useDataFetcher(DATA_URL);
   const [width, setWidth] = useState<number>(300);
+
+  // Checked the dark mode
+  const Color = {
+    backgroundColor: dark ? "#000" : "#fff",
+    color: dark ? "#fff" : "#000",
+  };
 
   // Use openai service to render response on the drawer
   const handleClick = async (prompt: any) => {
@@ -56,15 +62,15 @@ const Drawer = ({ wordState }: any) => {
         open={true}
         onClose={() => {}}
         onOpen={() => {}}
-        PaperProps={{ sx: { backgroundColor: "black" } }}
+        PaperProps={{ sx: { ...Color } }}
         hideBackdrop
       >
         <Box
           sx={{
-            width: { width },
-            backgroundColor: "#000", // Background color
-            color: "#a5a5a5",
+            width: width,
+            marginLeft: "10px",
             padding: "10px", // Padding inside the box
+            ...Color,
           }}
         >
           {wordState && prompts && (
@@ -75,7 +81,7 @@ const Drawer = ({ wordState }: any) => {
                   onClick={() => handleClick(d.text)}
                   variant="outlined"
                   key={index}
-                  style={{ margin: "0px 5px 10px 5px" }}
+                  style={{ margin: "0px 5px 10px 0px" }}
                 >
                   {d.text}
                 </Button>
@@ -91,11 +97,10 @@ const Drawer = ({ wordState }: any) => {
 
         <Box
           sx={{
-            width: { width },
-            backgroundColor: "#000", // Background color
-            color: "#a5a5a5",
+            width: width,
             padding: "10px", // Padding inside the box
             overflowY: "auto",
+            ...Color,
           }}
         >
           {openaiResponse && openaiResponse.response && (
